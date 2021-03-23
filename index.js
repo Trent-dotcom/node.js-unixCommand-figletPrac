@@ -3,7 +3,7 @@
 
 const figlet = require('figlet');// after npm installing figlet require figlet to render fun font.
 const colors = require('colors');// after npm installing colors require colors to render fun color effects.
-figlet('Hello World!!', function (err, data) { //call figlet (string you want converted,function( Error, returned date)
+figlet('Hello World!!', function (err, data) { //call figlet (string you want converted,function( Error, returned data)
     if (err) { // if no data is returned then handle with an error message in unix shell (git-bash) and send error data
         console.log('Something went wrong...');
         console.dir(err);
